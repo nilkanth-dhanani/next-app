@@ -1,0 +1,13 @@
+.login button {
+  padding: 11px 23px;
+  color: var(--black-color);
+  border-radius: 999px;
+  border: 1px solid var(--black-color);
+  margin-left: 66px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: var(--default-font-family);
+  line-height: 21px;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0);
+}/*# sourceMappingURL=button.css.map */
