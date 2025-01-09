@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--color-bg3);
+  padding: 80px 0 100px 0;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 80px;
+}
+
+.footer-main-div1 img {
+  padding: 0 0 40px 0;
+}
+
+.footer-main-div1-flex {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-main-div2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-div2-flex h5 {
+  color: var(--colorwhite);
+  margin-bottom: 20px;
+}
+
+.footer-ancer a {
+  display: block;
+  color: var(--color4);
+  padding-bottom: 16px;
+  text-decoration-line: none;
+}/*# sourceMappingURL=footer.css.map */

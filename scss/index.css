@@ -1,0 +1,127 @@
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+:root {
+  --colorwhite: #fff;
+  --color1: #030f21;
+  --color2: #7c8593;
+  --color3: #e7e7e7;
+  --color-button: #2150f5;
+  --color-bg: #f9f9fa;
+  --color-border: #efefef;
+  --color-div: #f3f6fa;
+  --color-bg2: #ececec;
+  --color-bg3: #222524;
+  --color-bg4: #101211;
+  --color4: #b9b9b9;
+  --color5: #121313;
+  --color-green: #4ee35d;
+  --font-family-inter: "Inter", sans-serif;
+}
+
+.login button {
+  padding: 11px 23px;
+  color: var(--color1);
+  border-radius: 999px;
+  border: 1px solid var(--color1);
+  margin-left: 66px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: var(--font-family-inter);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.search-button button {
+  padding: 14px 35px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: var(--font-family-inter);
+  color: var(--colorwhite);
+  background-color: var(--color-button);
+}
+
+.absolute-main button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-family-inter);
+  color: var(--colorwhite);
+  background-color: rgba(0, 0, 0, 0.4588235294);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.absolute-main button div {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--color1);
+}
+
+.suspend-main-button button {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 500;
+  font-family: var(--font-family-inter);
+  color: var(--colorwhite);
+  background-color: var(--color-button);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-main-div2-grid2 button {
+  padding: 15px 37px;
+  background-color: var(--color-green);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: var(--font-family-inter);
+  font-weight: 600;
+  color: var(--color1);
+  border: none;
+  border-radius: 999px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.last-section-grid2-main button {
+  padding: 15px 40px;
+  background-color: var(--color-green);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: var(--font-family-inter);
+  font-weight: 500;
+  color: var(--color1);
+  border: none;
+  border-radius: 999px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

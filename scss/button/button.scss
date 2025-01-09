@@ -1,0 +1,93 @@
+.login {
+    button {
+        padding: 11px 23px;
+        color: var(--color1);
+        border-radius: 999px;
+        border: 1px solid var(--color1);
+        margin-left: 66px;
+        cursor: pointer;
+        @include font15;
+        background-color: #ffffff00;
+    }
+}
+
+.search-button {
+    button {
+        padding: 14px 35px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        @include font15;
+        color: var(--colorwhite);
+        background-color: var(--color-button);
+    }
+}
+
+.absolute-main {
+    button {
+        width: 100%;
+        padding: 8px;
+        border-radius: 9999px;
+        border: none;
+        cursor: pointer;
+        @include font12weight;
+        color: var(--colorwhite);
+        background-color: #00000075;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        div {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: var(--color1);
+        }
+    }
+}
+
+.suspend-main-button {
+
+    button {
+        padding: 15px 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        @include font15;
+        color: var(--colorwhite);
+        background-color: var(--color-button);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.section-main-div2-grid2 {
+    button {
+        padding: 15px 37px;
+        background-color: var(--color-green);
+        @include font14;
+        font-weight: 600;
+        color: var(--color1);
+        border: none;
+        border-radius: 999px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.last-section-grid2-main {
+    button {
+        padding: 15px 40px;
+        background-color: var(--color-green);
+        @include font14;
+        font-weight: 500;
+        color: var(--color1);
+        border: none;
+        border-radius: 999px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+}
